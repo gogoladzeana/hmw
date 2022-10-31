@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Test from './components/test/Test';
+import {useState} from 'react'
+import Input from './components/test/Input';
+import Component2 from './Task/Component2';
 
-function App() {
+
+
+function App () {
+
+  // const [list,setList]=useState([ 'joe' ,'noe'])
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div >
+  
+    // {list.map(l=>(
+    //   <Test
+    //   list={l}
+    //   />
+    // ))}
+
+    // </div>
+    <Component2></Component2>
   );
 }
 
